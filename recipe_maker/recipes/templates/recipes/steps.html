@@ -1,0 +1,10 @@
+{% extends 'recipes/base.html' %}
+{% block content %}
+<h2>Steps for {{ recipe.title }}</h2>
+<ol class="mt-3">
+    {% for step in steps_list %}
+    <li>{{ step }}</li>
+    {% endfor %}
+</ol>
+<a href="{% url 'recipe_detail' recipe.id %}" class="btn btn-secondary mt-3">Back</a>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends 'recipes/base.html' %}
+{% block content %}
+<div class="text-center mt-5">
+    <h1 class="display-4">Welcome to Recipe Maker 🍲</h1>
+    <p class="lead">Discover delicious recipes with steps and ingredients.</p>
+    <a href="{% url 'dishes' %}" class="btn btn-primary btn-lg mt-3">View Dishes</a>
+</div>
+{% endblock %}
