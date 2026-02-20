@@ -1,50 +1,46 @@
-# Recipe Maker 🍲
+Recipe Maker 
 
-**Recipe Maker** is a Django-based web application that allows users to browse, view, and manage recipes in a stylish and professional interface. Users can see recipe images, descriptions, ingredients, and step-by-step instructions.
+Recipe Maker is a Django-based web application that allows users to browse, view, and manage recipes in a stylish and professional interface. Users can see recipe images, descriptions, ingredients, and step-by-step instructions.
 
----
 
-## Features
+
+Features
 
 - Home page with a welcome message.
 - Browse a list of dishes with images and descriptions.
 - View detailed recipe steps and ingredients.
-- Separate navigation tabs for **Ingredients** and **Steps**.
+- Separate navigation tabs for Ingredients and Steps.
 - Admin interface to add, update, and delete recipes.
 - Image upload support for recipes.
 - Clean, professional, and responsive design.
 
----
 
-## Screenshots
 
-**Home Page**  
+
+Home Page 
 ![Home Page](screenshots/home.png)
 
-**Recipes List**  
+Recipes List
 ![Recipes List](screenshots/recipes_list.png)
 
-**Recipe Details**  
+Recipe Details
 ![Recipe Details](screenshots/recipe_detail.png)
 
-> *Note: Create a `screenshots` folder in your project and add images with these filenames if you want screenshots to display.*
 
----
 
-## Installation
+ Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
 
-```bash
 git clone https://github.com/yourusername/recipe_maker.git
 cd recipe_maker
 Create and activate a virtual environment:
 
-# Windows
+Windows
 python -m venv env
 env\Scripts\activate
 
-# macOS/Linux
+macOS/Linux
 python3 -m venv env
 source env/bin/activate
 Install dependencies:
